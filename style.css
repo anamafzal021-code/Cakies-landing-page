@@ -1,0 +1,371 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  min-height: 100%;
+  overflow-x: hidden;
+  height: auto;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+body{
+     
+    object-fit: cover;
+    font-family: 'Poppins', sans-serif,Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navlinks{
+    display: flex;
+    gap: 4rem;
+    list-style: none;   
+}
+.bb .menu-toggle{
+    display: none;
+}
+
+.bb{
+    display: flex;
+    justify-content: space-between;
+    background-color:  #f884d1c4;
+    padding: 25px;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.1rem;
+    transition: color 0.5s ease-in-out;
+}
+
+a:hover{
+    color: #f07eca8e;
+}
+
+
+.hero {
+  margin-bottom: 0px;
+  background-color: #f884d19a;
+  color: white;
+  width: 30rem; /* full width */
+  font-size: 1.3rem;
+  padding: 18px;
+  border-radius: 35px;
+  line-height: 32px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 20px;
+  object-fit: cover;
+}
+
+.main{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background-image: url('/images/bpic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+h2{
+    text-align: center;
+    transition: color 0.5s ease-in-out;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+ 
+ 
+.btn{
+    background-color: #f143b7;
+    padding: 12px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #cf6eaf;
+    transform: scale(1.05);
+
+}
+
+               /* menu */
+.menuitems{
+    height: auto;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.menu h2 {
+  margin-bottom: 30px;
+  color: white;
+  font-size: 2rem;
+}
+.menu .item img{
+    height: 200px;
+    width: 100%;
+    border-radius: 15px; 
+    background-size: cover; 
+    background-position: center;
+    object-fit: cover;
+}
+
+.item{
+    background-color: #fd60c98e;
+    height: auto;
+    width: 280px;
+    border-radius: 15px;
+    padding: 15px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.menu{
+     
+    background-color: #ffc6ec;
+     /* height: 100vh; */
+}
+
+.item h3,
+.item p{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+     
+}
+
+.item h3{
+    font-size: 1.5rem;
+     
+}
+
+.item button{
+    padding: 15px;  
+    background-color: #ff4ec4;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 150px;
+    font-size: 1.2rem;
+    color: rgb(41, 35, 35);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+button:hover {
+    background-color: #fc8ed7;
+    transform: scale(1.05);
+}
+
+/* testimonial */
+
+.testimonials{
+    background-color: #ffc6ec;
+    height: auto;
+    padding: 60px 20px;
+     
+}
+
+.testimonial{
+    height: 200px;
+    width: 300px;
+    background-color: #fc43be8e;
+    align-content: center;
+    border-radius: 30px;
+    padding: 30px;
+    line-height: 20px;
+    color: white;
+}
+
+.testimonial-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+     
+}
+.testimonial h4,
+.testimonial p{
+    font-size: 1.1rem;
+}
+
+.testimonials h2{
+    font-size: 2.2rem;
+    color: #fffdfd;
+    margin-top: 40px;
+}
+
+ 
+
+
+      /* contact */
+.contact{
+    height: auto;
+    padding: 60px 20px;
+    background-color:  #ffc6ec;
+     
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+       
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid pink;
+    box-shadow: 0 0 8px #ffd3eb;
+    font-size: 1.1rem;
+}
+
+.contact-form button{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #fa78cf;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+     
+}
+
+.contact h2{
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    font-size: 2.2rem;
+    padding-top: 50px;
+}
+
+.contact-form button:hover{
+    background-color: rgb(245, 126, 156);
+}
+
+.footer {
+  background-color: #e77cc3b6;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 1rem;
+  letter-spacing: 0.5px; 
+}
+
+@media (max-width: 700px) {
+.bb .navlinks{
+    display:none;
+}
+
+.bb .fas{
+    display: block;
+    color: white;
+    font-size: 2.3rem;
+}
+}
+
+@media (max-width:548px){
+    .hero{
+        width: 25rem;
+    }
+    .contact-form input,
+    .contact-form textarea{ 
+        width: 100%;   
+    }
+    .contact-form button{
+        padding: 15px;
+        width: 100%;
+    }
+    
+    .contact-form{
+    display: flex;
+    align-content: center;
+}
+
+}
+
+@media (max-width: 510px){
+    .hero{
+        width: 90%;
+    }
+    .contact-form input,
+    .contact-form textarea{ 
+        width: 350px;   
+    }
+    .contact-form button{
+        padding: 15px;
+        width: 350px;
+    }
+    
+    .contact-form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+}
+@media (max-width: 499px){
+    .contact-form input,
+    .contact-form textarea{ 
+        width: 350px;
+        padding: 20px; 
+        font-size: 1.1rem;  
+    }
+    .contact-form button{
+        padding: 15px;
+        width: 350px;
+        font-size: 1.1rem;
+    }
+    .contact-form{
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+
+    }
+    .contact h2{
+        text-align: left;
+    }
+}
+
+
+@media (max-width: 380px){
+    .contact-form input,
+    .contact-form textarea{ 
+        width: 300px;
+        padding: 15px; 
+        font-size: 1.1rem;  
+    }
+    .contact-form{
+    display: flex;
+     
+}
+    .contact-form button{
+        padding: 15px;
+        width: 300px;
+        font-size: 1.1rem;
+    }
+
+}
+
+ 
+
+
+ 
